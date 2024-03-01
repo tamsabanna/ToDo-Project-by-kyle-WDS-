@@ -1,0 +1,53 @@
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #dad9d9dc;
+  }
+  
+  .heading {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .semicontainer {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 16px;
+  }
+  
+  .inputarea {
+    flex-grow: 1;
+    padding: 8px;
+    outline: none;
+    border: 1px solid #000000;
+  }
+  
+  .addbtn,
+  .removebtn {
+    padding: 8px;
+    background-color: #4caf50;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+  }
+
+  .removebtn{
+    background-color: rgba(223, 41, 41, 0.856);
+  }
+
+  .removebtn:hover{
+    background-color: rgb(223, 41, 41);
+  }
+  
+  .addbtn:hover {
+    background-color: #45a049;
+  }
+
+  .todolist{
+    font-size: 2rem;
+  }
+  
